@@ -10,7 +10,7 @@ import Combine
 import AsyncNavigation
 
 enum OrderSummary {
-   enum PaymentMethod {
+    enum PaymentMethod: Equatable {
       case creditCard(CreditCardInfo, Address)
       case applePay
    }

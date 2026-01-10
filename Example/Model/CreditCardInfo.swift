@@ -5,7 +5,7 @@
 //  Created by Ilya Belenkiy on 12/13/25.
 //
 
-struct CreditCardInfo: Codable {
+struct CreditCardInfo: Codable, Equatable {
    let cardHolderName: String
    let number: String
    let expDateMonth: Int
